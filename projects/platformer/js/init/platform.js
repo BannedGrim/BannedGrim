@@ -39,7 +39,25 @@
         // example:
         createPlatform(400, 250);
         createPlatform(170, 460, 0.5);
+
+        /*
+        createPlatform(x, y, scaleX, scaleY);
+ 
+        x: The x coordinate for the platform.
+        y: The y coordinate for the platform.
+        scaleX: OPTIONAL The scale factor on the x-axis, this value will stretch the platform in width.
+        scaleY: OPTIONAL The scale factor on the y-axis, this value will stretch the platform in height.
+        */
         
+        createPlatform(100, 360);           
+        createPlatform(350, 200, 0.3);  
+        createPlatform(500, 500, 0.3, 7);
+        createPlatform(30, 100);           
+        createPlatform(75, 200, 0.5);  
+        createPlatform(180, 550, 0.1, 3);   
+        createPlatform(600, 150, 0.1, 3);
+        createPlatform(700, 350, 0.1, 3);
+
         // ALL YOUR CODE GOES ABOVE HERE ///////////////////////////////////////
         ////////////////////////////////////////////////////////////////////////
     }
